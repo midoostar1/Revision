@@ -1,5 +1,5 @@
 //creating a Node class
-class Node {
+ class Node {
   //constructor
   constructor(data) {
     this.data = data;
@@ -34,3 +34,4 @@ console.log(firstNode.getNextNode());
 firstNode.setNextNode(thirdNode)
 console.log(firstNode.getNextNode());
 
+module.exports = { Node }
