@@ -30,6 +30,7 @@ const thirdNode = new Node("I am thirdNode");
 firstNode.setNextNode(secondNode);
 console.log(firstNode.getNextNode());
 
+//firstNode pointer has been changed to thirdNode
 firstNode.setNextNode(thirdNode)
 console.log(firstNode.getNextNode());
 
